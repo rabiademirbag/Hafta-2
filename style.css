@@ -1,0 +1,139 @@
+/* Paragraf metin rengini belirliyoruz */
+p {
+    color: #666;
+}
+
+/* Sayfanın genel gövde özelliklerini ayarlıyoruz */
+body {
+    background-color: #f4f4f4; /* Arka plan rengini belirliyoruz */
+    font-family: Arial, sans-serif; /* Yazı tipini belirliyoruz */
+    margin: 0; /* Sayfa etrafındaki boşlukları kaldırıyoruz */
+    padding: 0; /* Sayfa etrafındaki boşlukları kaldırıyoruz */
+}
+
+/* .container sınıfı, başlık ve navigasyonu içeren ana kutu */
+.container {
+    background-color: #333; /* Arka plan rengini koyu gri yapıyoruz */
+    display: flex; /* Flexbox düzeni kullanıyoruz */
+    justify-content: center; /* İçeriği yatayda ortalıyoruz */
+    width: 100%; /* Kutu genişliğini %100 yapıyoruz */
+    height: 105px; /* Yüksekliği ayarlıyoruz */
+    border-radius: 10px 10px 0 0; /* Üst köşeleri yuvarlatıyoruz */
+    padding-top: 20px; /* Üstten iç boşluk ekliyoruz */
+}
+
+/* Başlık stilini ayarlıyoruz */
+.container h1 {
+    color: white; /* Başlık rengini beyaz yapıyoruz */
+    text-align: center; /* Başlığı yatayda ortalıyoruz */
+    margin: 0; /* Başlık etrafındaki boşlukları sıfırlıyoruz */
+}
+
+/* Navigasyon menüsünün konumlandırılmasını sağlıyoruz */
+.nav {
+    position: absolute; /* Navigasyonu sayfa üzerinde serbest konumlandırıyoruz */
+}
+
+/* Navigasyon listesinin stilini ayarlıyoruz */
+.nav ul {
+    list-style: none; /* Liste işaretlerini kaldırıyoruz */
+    display: flex; /* Listeyi yatay hale getiriyoruz */
+    justify-content: center; /* Liste elemanlarını yatayda ortalıyoruz */
+    margin: 50px; /* Listeye dış boşluk ekliyoruz */
+}
+
+/* Navigasyon öğeleri arasındaki boşluğu ayarlıyoruz */
+.nav ul li {
+    margin: 0 15px; /* Her bir öğe arasına 15px boşluk bırakıyoruz */
+}
+
+/* Navigasyon bağlantılarının stilini ayarlıyoruz */
+.nav a {
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırıyoruz */
+    color: white; /* Bağlantı rengini beyaz yapıyoruz */
+}
+
+/* Bölüm başlıklarını stilize ediyoruz */
+.section-title {
+    color: #333; /* Başlık rengini koyu gri yapıyoruz */
+    text-align: left; /* Başlığı sola hizalıyoruz */
+    padding-top: 10px; /* Üstten iç boşluk ekliyoruz */
+    padding-left: 15px; /* Soldan iç boşluk ekliyoruz */
+}
+
+/* Blog içeriklerini düzenli şekilde sıralıyoruz */
+.blog-container {
+    display: flex; /* Flex düzeni kullanıyoruz */
+    justify-content: center; /* İçeriği ortalıyoruz */
+    flex-wrap: wrap; /* İçeriğin taşmasını önlüyoruz ve sarmasını sağlıyoruz */
+    gap: 20px; /* Elemanlar arasına boşluk bırakıyoruz */
+    padding: 20px; /* İçeriğe dışarıdan boşluk ekliyoruz */
+}
+
+/* Blog başlık bağlantılarının stilini ayarlıyoruz */
+.blog-container a {
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırıyoruz */
+    color: #333; /* Bağlantı rengini koyu gri yapıyoruz */
+}
+
+/* Her bir blog kutusunun stilini ayarlıyoruz */
+.blog {
+    border-radius: 10px; /* Köşeleri yuvarlatıyoruz */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ekliyoruz */
+    text-align: center; /* İçeriği ortalıyoruz */
+    width: 400px; /* Kutu genişliğini ayarlıyoruz */
+}
+
+/* Blog görsellerinin stilini ayarlıyoruz */
+.blog-img {
+    padding-top: 15px; /* Üstten iç boşluk ekliyoruz */
+    width: 50%; /* Görselin genişliğini ayarlıyoruz */
+    height: 200px; /* Görselin yüksekliğini ayarlıyoruz */
+}
+
+/* Blog başlıklarının ortalanmasını sağlıyoruz */
+.blog-container h1 {
+    text-align: center; /* Başlıkları ortalıyoruz */
+}
+
+/* Blog özeti metin stilini ayarlıyoruz */
+.blog-ozet p {
+    text-align: justify; /* Metni iki yana hizalıyoruz */
+    padding: 5px; /* İç boşluk ekliyoruz */
+}
+
+.post-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.post-blog{
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ekliyoruz */
+    width: 700px;
+    padding: 20px;
+}
+
+.post-container h1{
+    text-align: center;
+}
+/* Footer stilini ayarlıyoruz */
+.footer {
+    background-color: #333; /* Arka plan rengini koyu gri yapıyoruz */
+    display: flex; /* Flex düzeni kullanıyoruz */
+    justify-content: center; /* İçeriği yatayda ortalıyoruz */
+    align-items: center; /* İçeriği dikeyde ortalıyoruz */
+    width: 100%; /* Kutu genişliğini %100 yapıyoruz */
+    height: 80px; /* Yüksekliği ayarlıyoruz */
+    border-radius: 0 0 10px 10px; /* Alt köşeleri yuvarlatıyoruz */
+}
+
+/* Footer metin rengini ayarlıyoruz */
+.footer p {
+    color: white; /* Metin rengini beyaz yapıyoruz */
+}

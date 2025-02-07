@@ -1,0 +1,13 @@
+# Ignore the figures directory
+figures/
+
+# Ignore specific image file types inside figures
+figures/*.png
+figures/*.jpg
+figures/*.jpeg
+figures/*.gif
+figures/*.svg
+figures/*.bmp
+
+# Ignore hidden files inside figures
+figures/.*

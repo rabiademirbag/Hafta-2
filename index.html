@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Karakter seti ve viewport ayarlarını yapıyoruz -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Sayfanın başlığı -->
+    <title>Ana Sayfa</title>
+    
+    <!-- Dış stil dosyasına bağlantı -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header bölümünü başlatıyoruz -->
+    <header>
+        <div class="container">
+            <!-- Sayfa başlığı -->
+            <h1>Blog Sitesi</h1>
+            
+            <!-- Navigasyon menüsü -->
+            <nav class="nav">
+                <ul>
+                    <!-- Navigasyon bağlantıları -->
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="post.html">Blog Gönderisi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- İçerik bölümü -->
+    <section class="section">
+        <!-- Son gönderiler başlığı -->
+        <h1 class="section-title">Son Gönderiler</h1>
+        
+        <!-- Blog gönderilerinin listelendiği alan -->
+        <div class="blog-container">
+
+            <!-- İlk blog gönderisi -->
+            <article class="blog">
+                <img class="blog-img"  src="./figures/empati.jpg" alt="birazEmpati" width="620px" height="360px">
+                
+                <div class="blog-ozet">
+                    <!-- Blog başlığı -->
+                    <h1><a href="post.html">Biraz Empati</a></h1>
+                    <!-- Blog özeti -->
+                    <p>Merhabalar yılın ilk köşe yazısı ile sizlerleyim. İsterdim ki engelliler ile alakalı 
+                        olumlu şeyleri dile getireyim. Güzel haberleri sizlerle paylaşayım ancak her geçen 
+                        gün yeni bir olumsuzluk yaşanıyor. Daha fazlasını okumak için başlığa tıklayın.</p>
+                    <p></p>
+                </div>
+            </article>
+
+            <!-- İkinci blog gönderisi -->
+            <article class="blog">
+                <img class="blog-img" src="./figures/gercekdostluk.jpg" alt="gerçekDostluk" width="620px" height="360px">
+                
+                <div class="blog-ozet">
+                    <!-- Blog başlığı -->
+                    <h1><a href="post2.html">Gerçek Dostluk</a></h1>
+                    <!-- Blog özeti -->
+                    <p>Ne yazık ki günümüzde kurulan arkadaşlık ilişkilerinin çoğunun temelinde
+                         kişisel çıkarlar var ve bu yüzden de kurulan birçok dostluk fazla uzun 
+                         sürmeden, kişisel çıkarlar giderildikten sonra bitiyor. Daha fazlasını okumak
+                        için başlığa tıklayın. </p>
+                    <p></p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer bölümü -->
+    <footer>
+        <div class="footer">
+            <!-- Telif hakkı yazısı -->
+            <p> © 2024 Blog Sitesi</p>
+        </div>
+    </footer>
+</body>
+</html>
