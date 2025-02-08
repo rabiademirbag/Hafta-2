@@ -1,0 +1,211 @@
+body {
+    background-image: url(./figures/background.jpg); /* Sayfa arka planı resmi */
+}
+
+.home-container {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-container2 {
+    background-color: rgb(249, 213, 82); /* Alt kısmın arka plan rengi */
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top: 50px;
+}
+
+.home-container2 h1 {
+    position: flex;
+    align-items: center;
+    margin-left: 300px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+    color: white;
+    font-family: "Hubballi", serif;
+    font-size: 44px;
+    letter-spacing: 3px;
+}
+
+.container-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 100px; /* Yuvarlak köşeler */
+    border: 10px solid rgb(249, 213, 82); /* Kenarlık rengi */
+    position: absolute;
+    background-color: rgb(249, 213, 82); /* Arka plan rengi */
+    left: 100px;
+}
+
+.container-image img {
+    width: 150px;
+    height: 200px;
+    border-radius: 100px; /* Yuvarlak köşeler */
+}
+
+.nav {
+    position: absolute;
+    top: 110px;
+    left: 300px;
+}
+
+.nav ul {
+    display: flex; /* Menü öğelerini yatayda hizala */
+    list-style-type: none; /* Liste işaretlerini kaldır */
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none; /* Alt çizgi kaldır */
+    font-family: "Hubballi", serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+    color: white;
+}
+
+.section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Sayfa yüksekliği kadar */
+}
+
+.section p {
+    font-family: "Hubballi", serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background: rgba(108, 100, 100, 0.6); /* Yarı şeffaf arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+    border-left: 5px solid rgb(249, 213, 82); /* Sol kenarlık */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Kutunun gölgesi */
+    line-height: 1.8;
+    max-width: 80%;
+}
+
+.section p cite {
+    display: block;
+    font-size: 22px;
+    color: rgb(249, 213, 82); /* Alıntı yazısının rengi */
+    font-family: "Hubballi", serif;
+    margin-top: 10px;
+    text-transform: uppercase; /* Büyük harf yap */
+}
+
+.section-info {
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    height: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end; /* İçeriği sağa yasla */
+    text-align: left; /* Metni sola hizala */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column; /* İçeriği alt alta hizala */
+    align-items: flex-start; /* Başlık ve metni sola hizala */
+    max-width: 80%;
+}
+
+.section-info h1 {
+    font-family: "Hubballi", serif;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-left: 0; /* H1 tamamen sola dayalı */
+}
+
+.section-info p {
+    font-family: "Hubballi", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    background: rgba(108, 100, 100, 0.6); /* Yarı şeffaf arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+    border-left: 5px solid rgb(249, 213, 82); /* Sol kenarlık */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Kutunun gölgesi */
+    line-height: 1.2;
+    max-width: 80%;
+    margin-left: 0; /* Paragraf da tamamen sola dayalı */
+}
+
+.info-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Resimleri sağa hizala */
+    gap: 40px; /* Resimler arasında boşluk */
+    position: absolute; /* Üstteki divle aynı hizaya getir */
+    top: 120px; /* Üst boşluğu .section-info ile aynı yap */
+    left: 70px; /* Sayfanın sağında olsun */
+    width: auto; /* İçeriğe göre genişlik ayarla */
+}
+
+.books-section {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.books-section h1 {
+    font-family: "Hubballi", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.books-section ul {
+    list-style-type: circle; /* Liste işaretlerini daire yap */
+    background: rgba(108, 100, 100, 0.6); /* Yarı şeffaf arka plan */
+    font-family: "Hubballi", serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+    border-left: 5px solid rgb(249, 213, 82); /* Sol kenarlık */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Kutunun gölgesi */
+    line-height: 1.5;
+}
+
+.footer {
+    background: rgba(92, 86, 86, 0.719);
+    padding: 0;
+    border: 3px solid rgb(249, 213, 82); /* Kenarlık rengi */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.578); /* Kutunun gölgesi */
+    height: 80px;
+    border-radius: 10px 10px 0 0; /* Üst köşeleri yuvarla */
+}
+
+.footer p {
+    font-family: "Hubballi", serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Yazıya gölge efekti */
+}
